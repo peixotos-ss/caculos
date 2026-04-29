@@ -1,2 +1,2 @@
-# caculos
-calculojs
+# exercicios js
+denisclenis
