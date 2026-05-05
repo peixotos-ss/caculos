@@ -1,2 +1,1 @@
-# exercicios js
-denisclenis
+# sala13exerciciosJS

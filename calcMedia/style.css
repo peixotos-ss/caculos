@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+h1{font-family: "Space Grotesk", sans-serif;
+
+}
+
+
+body{
+    padding-top: 80px;
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+
+}
+
+
+
+nav{
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px #090909;
+}
+
+a{
+    text-decoration: none;
+    color: #090909;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+input{
+    padding: 15px;
+    border-radius: 999px;
+    border: none;
+    border: #090909;
+    box-shadow: 0px 3px 15px ;
+}
+button{
+    padding: 15px;
+    border-radius: 999px;
+    border: none;
+    border: #090909;
+    box-shadow: 0px 3px 15px ;
+}
